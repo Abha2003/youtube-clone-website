@@ -1,0 +1,173 @@
+.header{
+    height: 55px ;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(209, 203, 203);
+    z-index: 200;
+   
+
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.th-menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-left: 13px;
+}
+.logo-menu{
+    height: 24px;
+}
+
+.middle-section{
+   flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-bar{
+    flex: 1;
+    align-items: center;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(201, 201, 194);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px;
+    width: 0;
+}
+
+.search-bar::placeholder{
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.search-button{
+  height: 37px;
+  width: 60px;
+    background-color:rgb(201, 201, 194);
+    border-width: 1px;
+    border-style: solid;
+    margin-left: -1px;
+    margin-top: 4px;
+   
+}
+.call-container,
+.voice-button,
+.search-button{
+    height: 34px;
+    border-color:rgb(211, 211, 205); 
+    margin-right: 10px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.search-menu{
+height: 30px;
+margin-top: 1px;
+margin-right: 2px;
+background-color:rgb(201, 201, 194);
+}
+
+.call-container .tooltip,
+.voice-button .tooltip,
+.search-button .tooltip{
+position: absolute;
+opacity: 1;
+background-color: rgb(249, 210, 163);
+color: white;
+padding-bottom: 4px;
+padding-top: 4px;
+padding-left: 8px;
+padding-right: 8px;
+border-radius: 2px;
+font-size: 12px;
+bottom: -30px;
+opacity: 0;
+transition:opacity 1s
+}
+
+.bell-container:hover .tooltip,
+.voice-button:hover .tooltip,
+.search-button:hover .tooltip{
+    opacity: 1;
+}
+
+.voice-button{
+height: 40px;
+width: 40px;
+border-radius: 20px;
+border: none;
+background-color:rgb(231, 231, 227);
+}
+
+.voice-menu{
+    height:24px ;
+    margin-top: 4px;
+    margin-left: 2px;
+    background-color:rgb(178, 178, 174);
+}
+
+.right-section{
+   align-items: center;
+   width: 180px;
+   display: flex;
+justify-content: space-between;
+margin-right: 20px;
+flex-shrink: 0;
+}
+
+
+.call-menu{
+    height: 35px;
+    margin-right: 5px; 
+}
+
+.bell-container{
+    position: relative;
+}
+
+.bell-menu{
+   height: 20px;
+  
+}
+
+.bell-count{
+    position: absolute;
+    top: -5px;
+    right: 0;
+    background-color: #ff0000;
+    color: rgb(243, 248, 251);
+    font-size: 12px;
+    font-family: Arial;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+}
+.email-menu{
+  height: 30px;
+  width: 20px;
+}

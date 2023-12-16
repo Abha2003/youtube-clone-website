@@ -1,0 +1,143 @@
+p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.video-title{
+    font-family:Arial;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.video-stat{
+    font-family:Arial;
+    font-size: 14px;
+    color: gray;
+}
+.video-author{
+    font-family:Arial;
+    font-size: 14px;
+    color: gray;
+    margin-top: 0px;
+}
+.video-description{
+    font-family:Arial;
+    font-size: 14px;
+    color: gray;
+    line-height: 22px;
+    width: 280px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    line-height: 22px
+}
+.apple-text{
+    margin-bottom: 50;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 10;
+    padding-bottom: 10;
+
+}
+.span-example{
+    color: blueviolet;
+    margin-left: 12;
+}
+.span-example:hover{
+    text-decoration: underline;
+}
+.shop-link{
+    cursor: pointer;
+}
+.shop-link:hover{
+    text-decoration: underline;
+}
+</style>
+
+</head>
+<body><p class="video-title">
+TALK TECH WITH SUNDAR PICHARI!
+</p>
+<p class="video-stat">
+3.4M views &#183; 6months ago
+</p>
+<p class="video-author">
+Marques Brownlee &#10003;
+</p>
+<p class="video-description">
+Talking tech and AI on the heels of google I/O.Also a daily driver phone reveal Google's CEO. Shoutout to Sundar!
+</p>
+<p class="apple-text">
+Shop early for best selection. <span class="shop-link">SHOP NOW > </span>
+</p>
+<p >
+Shop early for <strong>
+best selection. </strong> <span class="span-example">SHOP NOW ></span>
+</p></body>
+</html>
+
+
+
+<style>
+p{
+font-family: Arial;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+.video-title{
+font-family:Arial;
+font-size: 15px;
+font-style: italic;
+font-weight: bold;
+text-align: center;
+
+}
+.video-stat{
+font-family:Arial;
+font-size: 14px;
+color: gray;
+}
+.video-author{
+font-family:Arial;
+font-size: 14px;
+color: gray;
+margin-top: 0px;
+}
+.video-description{
+font-family:Arial;
+font-size: 14px;
+color: gray;
+line-height: 22px;
+width: 280px;
+margin-top: 0px;
+margin-bottom: 100px;
+line-height: 22px
+}
+.apple-text{
+margin-bottom: 50;
+font-size: 14px;
+background-color: red;
+color: white;
+text-align: center;
+padding-top: 10;
+padding-bottom: 10;
+
+}
+.span-example{
+color: blueviolet;
+margin-left: 12;
+}
+.span-example:hover{
+text-decoration: underline;
+}
+.shop-link{
+cursor: pointer;
+}
+.shop-link:hover{
+text-decoration: underline;
+}

@@ -1,0 +1,45 @@
+.sidebar{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 55px;
+    background-color: aliceblue;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+}
+
+body{
+    margin: 2px;
+    padding-top: 88px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: gainsboro;
+}
+
+.sidebar-link{
+    background-color:whitesmoke;
+    height: 76px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.sidebar-link:hover{
+    background-color: gray;
+}
+
+.sidebar-link img
+{
+    height: 30px;
+    margin-bottom: 4px;
+}
+.sidebar-link div{
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 500;
+
+}
